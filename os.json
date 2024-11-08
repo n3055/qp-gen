@@ -1,0 +1,167 @@
+{
+    "MODULE-1": {
+      "topics": [
+        "Introduction to operating systems",
+        "System structures",
+        {
+          "subtopics": [
+            "What operating systems do",
+            "Computer System organization",
+            "Computer System architecture",
+            "Operating System structure",
+            "Operating System operations",
+            "Process management",
+            "Memory management",
+            "Storage management",
+            "Protection and Security",
+            "Distributed system",
+            "Special-purpose systems",
+            "Computing environments"
+          ]
+        },
+        "Operating System Services",
+        {
+          "subtopics": [
+            "User - Operating System interface",
+            "System calls",
+            "Types of system calls",
+            "System programs",
+            "Operating system design and implementation",
+            "Operating System structure",
+            "Virtual machines",
+            "Operating System debugging",
+            "Operating System generation",
+            "System boot"
+          ]
+        }
+      ]
+    },
+    "MODULE-2": {
+      "topics": [
+        "Process Management",
+        {
+          "subtopics": [
+            "Process concept",
+            "Process scheduling",
+            "Operations on processes",
+            "Inter process communication"
+          ]
+        },
+        "Multi-threaded Programming",
+        {
+          "subtopics": [
+            "Overview",
+            "Multithreading models",
+            "Thread Libraries",
+            "Threading issues"
+          ]
+        },
+        "Process Scheduling",
+        {
+          "subtopics": [
+            "Basic concepts",
+            "Scheduling Criteria",
+            "Scheduling Algorithms",
+            "Thread scheduling",
+            "Multiple-processor scheduling"
+          ]
+        }
+      ]
+    },
+    "MODULE-3": {
+      "topics": [
+        "Process Synchronization",
+        {
+          "subtopics": [
+            "The critical section problem",
+            "Peterson’s solution",
+            "Synchronization hardware",
+            "Semaphores",
+            "Classical problems of synchronization"
+          ]
+        },
+        "Deadlocks",
+        {
+          "subtopics": [
+            "System model",
+            "Deadlock characterization",
+            "Methods for handling deadlocks",
+            "Deadlock prevention",
+            "Deadlock avoidance",
+            "Deadlock detection",
+            "Recovery from deadlock"
+          ]
+        }
+      ]
+    },
+    "MODULE-4": {
+      "topics": [
+        "Memory Management",
+        {
+          "subtopics": [
+            "Memory management strategies",
+            "Swapping",
+            "Contiguous memory allocation",
+            "Paging",
+            "Structure of page table",
+            "Segmentation"
+          ]
+        },
+        "Virtual Memory Management",
+        {
+          "subtopics": [
+            "Background",
+            "Demand paging",
+            "Copy-on-write",
+            "Page replacement",
+            "Allocation of frames",
+            "Thrashing"
+          ]
+        }
+      ]
+    },
+    "MODULE-5": {
+      "topics": [
+        "File System",
+        {
+          "subtopics": [
+            "File concept",
+            "Access methods",
+            "Directory and Disk structure",
+            "File system mounting",
+            "File sharing"
+          ]
+        },
+        "Implementation of File System",
+        {
+          "subtopics": [
+            "File system structure",
+            "File system implementation",
+            "Directory implementation",
+            "Allocation methods",
+            "Free space management"
+          ]
+        },
+        "Secondary Storage Structure",
+        {
+          "subtopics": [
+            "Mass storage structures",
+            "Disk structure",
+            "Disk attachment",
+            "Disk scheduling",
+            "Disk management"
+          ]
+        },
+        "Protection",
+        {
+          "subtopics": [
+            "Goals of protection",
+            "Principles of protection",
+            "Domain of protection",
+            "Access matrix"
+          ]
+        }
+      ]
+    }
+  }
+  

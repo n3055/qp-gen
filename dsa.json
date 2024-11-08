@@ -1,0 +1,125 @@
+{
+    "MODULE-1": {
+      "topics": [
+        "Introduction to Data Structures",
+        {
+          "subtopics": [
+            "Data Structures",
+            "Classifications (Primitive & Non-Primitive)",
+            "Data structure Operations",
+            "Review of pointers and dynamic Memory Allocation"
+          ]
+        },
+        "Arrays and Structures",
+        {
+          "subtopics": [
+            "Arrays",
+            "Dynamically Allocated Arrays",
+            "Structures and Unions",
+            "Polynomials",
+            "Sparse Matrices",
+            "Representation of Multidimensional Arrays",
+            "Strings"
+          ]
+        },
+        "Stacks",
+        {
+          "subtopics": [
+            "Stacks",
+            "Stacks Using Dynamic Arrays",
+            "Evaluation and conversion of Expressions"
+          ]
+        }
+      ]
+    },
+    "MODULE-2": {
+      "topics": [
+        "Queues",
+        {
+          "subtopics": [
+            "Queues",
+            "Circular Queues",
+            "Using Dynamic Arrays",
+            "Multiple Stacks and Queues"
+          ]
+        },
+        "Linked Lists",
+        {
+          "subtopics": [
+            "Singly Linked Lists and Chains",
+            "Representing Chains in C",
+            "Linked Stacks and Queues",
+            "Polynomials"
+          ]
+        }
+      ]
+    },
+    "MODULE-3": {
+      "topics": [
+        "Linked Lists (Continued)",
+        {
+          "subtopics": [
+            "Additional List Operations",
+            "Sparse Matrices",
+            "Doubly Linked List"
+          ]
+        },
+        "Trees",
+        {
+          "subtopics": [
+            "Introduction",
+            "Binary Trees",
+            "Binary Tree Traversals",
+            "Threaded Binary Trees"
+          ]
+        }
+      ]
+    },
+    "MODULE-4": {
+      "topics": [
+        "Trees (Continued)",
+        {
+          "subtopics": [
+            "Binary Search Trees",
+            "Selection Trees",
+            "Forests",
+            "Representation of Disjoint Sets",
+            "Counting Binary Trees"
+          ]
+        },
+        "Graphs",
+        {
+          "subtopics": [
+            "The Graph Abstract Data Types",
+            "Elementary Graph Operations"
+          ]
+        }
+      ]
+    },
+    "MODULE-5": {
+      "topics": [
+        "Hashing",
+        {
+          "subtopics": [
+            "Introduction",
+            "Static Hashing",
+            "Dynamic Hashing"
+          ]
+        },
+        "Priority Queues",
+        {
+          "subtopics": [
+            "Single and Double Ended Priority Queues",
+            "Leftist Trees"
+          ]
+        },
+        "Introduction to Efficient Binary Search Trees",
+        {
+          "subtopics": [
+            "Optimal Binary Search Trees"
+          ]
+        }
+      ]
+    }
+  }
+  
