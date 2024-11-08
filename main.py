@@ -1,6 +1,7 @@
 import re
 import streamlit as st
-
+import json
+import google.generativeai as genai
 # Define Bloom's taxonomy categories with keywords for classification
 category_keywords = {
     "Remember": ["what", "who", "when", "where", "identify", "list", "define", "recite", "name", "state", "recall", "select", "match"],
@@ -41,7 +42,25 @@ if st.button("Classify",type="primary"):
     else:
         st.write("Please enter a question to classify.")
 st.subheader("Question paper generator")
-st.selectbox("Select any subject",("Operating System","DSA","Java"),)
+sub = st.selectbox("Select any subject",("Operating System","DSA","Java"),)
 st.number_input("Number of question papers to generate",value=1)
 if st.button("Generate QP",type="primary"):
+    if sub=="Operating System":
+        with open("os.json","r") as f:
+            data = json.load(f)
+    elif sub=="DSA":
+        with open("dsa.json","r") as f:
+            data = json.load(f)
+    elif sub=="Java":
+        with open("JA.json","r") as f:
+            data = json.load(f)       
+    genai.configure(api_key=st.secrets["API_KEY"])
+    model = genai.GenerativeModel("gemini-1.5-flash")
+    response = model.generate_content("""Your are given with syllabus data in
+                                       json format with topic and sub-topics 
+                                      for each module,your job is to generate 10 important questions
+                                      from each module.The question should cover complete
+                                      Module.Always print New question in new Line """+"Data:"+str(data))
+    with st.expander("Unorganized Questions"):
+        st.write(response.text)
     st.write("Work in progress!!")
