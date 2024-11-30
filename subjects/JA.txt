@@ -1,0 +1,164 @@
+{
+    "MODULE-1": {
+      "topics": [
+        "An Overview of Java",
+        {
+          "subtopics": [
+            "Object-Oriented Programming (Two Paradigms, Abstraction, The Three OOP Principles)",
+            "Using Blocks of Code",
+            "Lexical Issues (Whitespace, Identifiers, Literals, Comments, Separators, The Java Keywords)"
+          ]
+        },
+        "Data Types, Variables, and Arrays",
+        {
+          "subtopics": [
+            "The Primitive Types (Integers, Floating-Point Types, Characters, Booleans)",
+            "Variables",
+            "Type Conversion and Casting",
+            "Automatic Type Promotion in Expressions",
+            "Arrays",
+            "Introducing Type Inference with Local Variables"
+          ]
+        },
+        "Operators",
+        {
+          "subtopics": [
+            "Arithmetic Operators",
+            "Relational Operators",
+            "Boolean Logical Operators",
+            "The Assignment Operator",
+            "The ? Operator",
+            "Operator Precedence",
+            "Using Parentheses"
+          ]
+        },
+        "Control Statements",
+        {
+          "subtopics": [
+            "Java’s Selection Statements (if, The Traditional switch)",
+            "Iteration Statements (while, do-while, for, The For-Each Version of the for Loop, Local Variable Type Inference in a for Loop, Nested Loops)",
+            "Jump Statements (Using break, Using continue, return)"
+          ]
+        }
+      ]
+    },
+    "MODULE-2": {
+      "topics": [
+        "Introducing Classes",
+        {
+          "subtopics": [
+            "Class Fundamentals",
+            "Declaring Objects",
+            "Assigning Object Reference Variables",
+            "Introducing Methods",
+            "Constructors",
+            "The this Keyword",
+            "Garbage Collection"
+          ]
+        },
+        "Methods and Classes",
+        {
+          "subtopics": [
+            "Overloading Methods",
+            "Objects as Parameters",
+            "Argument Passing",
+            "Returning Objects",
+            "Recursion",
+            "Access Control",
+            "Understanding static",
+            "Introducing final",
+            "Introducing Nested and Inner Classes"
+          ]
+        }
+      ]
+    },
+    "MODULE-3": {
+      "topics": [
+        "Inheritance",
+        {
+          "subtopics": [
+            "Inheritance Basics",
+            "Using super",
+            "Creating a Multilevel Hierarchy",
+            "When Constructors Are Executed",
+            "Method Overriding",
+            "Dynamic Method Dispatch",
+            "Using Abstract Classes",
+            "Using final with Inheritance",
+            "Local Variable Type Inference and Inheritance",
+            "The Object Class"
+          ]
+        },
+        "Interfaces",
+        {
+          "subtopics": [
+            "Interfaces",
+            "Default Interface Methods",
+            "Use static Methods in an Interface",
+            "Private Interface Methods"
+          ]
+        }
+      ]
+    },
+    "MODULE-4": {
+      "topics": [
+        "Packages",
+        {
+          "subtopics": [
+            "Packages",
+            "Packages and Member Access",
+            "Importing Packages"
+          ]
+        },
+        "Exceptions",
+        {
+          "subtopics": [
+            "Exception-Handling Fundamentals",
+            "Exception Types",
+            "Uncaught Exceptions",
+            "Using try and catch",
+            "Multiple catch Clauses",
+            "Nested try Statements",
+            "throw, throws, finally",
+            "Java’s Built-in Exceptions",
+            "Creating Your Own Exception Subclasses",
+            "Chained Exceptions"
+          ]
+        }
+      ]
+    },
+    "MODULE-5": {
+      "topics": [
+        "Multithreaded Programming",
+        {
+          "subtopics": [
+            "The Java Thread Model",
+            "The Main Thread",
+            "Creating a Thread",
+            "Creating Multiple Threads",
+            "Using isAlive() and join()",
+            "Thread Priorities",
+            "Synchronization",
+            "Interthread Communication",
+            "Suspending, Resuming, and Stopping Threads",
+            "Obtaining a Thread’s State"
+          ]
+        },
+        "Enumerations, Type Wrappers, and Autoboxing",
+        {
+          "subtopics": [
+            "Enumerations (Enumeration Fundamentals, The values() and valueOf() Methods)",
+            "Type Wrappers (Character, Boolean, The Numeric Type Wrappers)",
+            "Autoboxing (Autoboxing and Methods, Autoboxing/Unboxing Occurs in Expressions, Autoboxing/Unboxing Boolean and Character Values)"
+          ]
+        }
+      ]
+    }
+  }
+CO-PO Mapping
+CO/PO PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12
+CO1 3 3 1 - - - - - - - 3
+CO2 3 3 1 - - - - - - - 3
+CO3 3 3 1 2 - - - - - 1 - 3
+CO4 3 3 3 3 - - - 2 2 2 - 3
+C05 3 3 3 3 - - 2 2 3 2 - 3
