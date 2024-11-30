@@ -18,7 +18,7 @@ if st.button("Generate QP", type="primary"):
 
         # Configure the Generative AI API
         genai.configure(api_key=st.secrets["API_KEY"])
-        model = genai.GenerativeModel("gemini-1.5-pro")
+        model = genai.GenerativeModel("gemini-1.5-flash")
         papers = []
 
         for i in range(n):
